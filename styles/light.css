@@ -14,6 +14,7 @@
     --link-hover-focus-border-color: #353430;
     --header-hover-focus-border-color: #32312D66;
     --bg-image: url("../images/cover-image-light.png");
+    --bg-color: #FFF1F7;
     }
 }
 
@@ -26,6 +27,7 @@
   --link-hover-focus-border-color: #353430;
   --header-hover-focus-border-color: #32312D66;
   --bg-image: url("../images/cover-image-light.png");
+  --bg-color: #FFF1F7;
 }
 
 .page.theme_light .title-decor {
