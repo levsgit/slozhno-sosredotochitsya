@@ -4,9 +4,34 @@
   переключая тему
 */
 
+@media (prefers-color-scheme: light) {
+  body {
+    --decorated-elements-color: #353430;
+    --titels-text-color: #353430;
+    --title-color: #FFC2E6;
+    --text-backing: #FF8DCB;
+    --text-color: #353430;
+    --link-hover-focus-border-color: #353430;
+    --header-hover-focus-border-color: #32312D66;
+    --bg-image: url("../images/cover-image-light.png");
+    }
+}
+
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --decorated-elements-color: #353430;
+  --titels-text-color: #353430;
+  --title-color: #FFC2E6;
+  --text-backing: #FF8DCB;
+  --text-color: #353430;
+  --link-hover-focus-border-color: #353430;
+  --header-hover-focus-border-color: #32312D66;
+  --bg-image: url("../images/cover-image-light.png");
+}
+
+.page.theme_light .title-decor {
+  color: #353430;
+}
+
+.page.theme_light .rec {
+  display: none;
 }
